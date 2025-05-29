@@ -1,0 +1,166 @@
+/* PIETECH Events Platform Custom Styles */
+
+/* Common Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+/* Card Styles */
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.event-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.event-card .card-body {
+    flex: 1;
+}
+
+/* Form Styles */
+.form-control:focus {
+    border-color: #4a5568;
+    box-shadow: 0 0 0 0.25rem rgba(74, 85, 104, 0.25);
+}
+
+.btn-primary {
+    background-color: #4a5568;
+    border-color: #4a5568;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #2d3748;
+    border-color: #2d3748;
+}
+
+.btn-outline-primary {
+    color: #4a5568;
+    border-color: #4a5568;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+    background-color: #4a5568;
+    border-color: #4a5568;
+}
+
+/* Dashboard Styles */
+.dashboard-card {
+    border-left: 4px solid #4a5568;
+}
+
+.dashboard-icon {
+    font-size: 2rem;
+    color: #4a5568;
+}
+
+/* Event Detail Styles */
+.event-header {
+    background-color: #4a5568;
+    color: white;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+.event-info {
+    background-color: white;
+    border-radius: 0.25rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.event-detail-icon {
+    color: #4a5568;
+    width: 24px;
+    text-align: center;
+    margin-right: 0.5rem;
+}
+
+/* Auth Pages */
+.auth-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.auth-form {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: auto;
+}
+
+/* Admin Dashboard */
+.admin-dashboard-tile {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: transform 0.3s ease;
+}
+
+.admin-dashboard-tile:hover {
+    transform: translateY(-5px);
+}
+
+.admin-dashboard-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #4a5568;
+}
+
+/* Attendance Dashboard */
+.attendance-table {
+    background-color: white;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.attendance-summary {
+    background-color: #4a5568;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #4a5568;
+    color: white;
+    padding: 4rem 0;
+    margin-bottom: 3rem;
+}
+
+.hero-title {
+    font-weight: 700;
+}
+
+/* Category Filter */
+.category-filter {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.category-filter .btn {
+    min-width: 120px;
+} 
