@@ -122,7 +122,3 @@ The application uses Bootstrap and custom CSS. To customize the look:
 ## License
 
 [MIT License](LICENSE)
-
-## Credits
-
-Developed for PIETECH by [Your Name] 
