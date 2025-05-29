@@ -1,0 +1,28 @@
+{
+    "name": "pietech/events-platform",
+    "description": "A comprehensive platform for managing technical, cultural, and sports events",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "^6.8",
+        "tecnickcom/tcpdf": "^6.9"
+    },
+    "autoload": {
+        "classmap": [
+            "app/models/",
+            "includes/"
+        ]
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

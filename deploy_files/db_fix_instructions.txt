@@ -1,0 +1,30 @@
+PIETECH EVENTS DATABASE CONNECTION FIX
+
+STEPS TO IMPLEMENT:
+
+1. Connect to your website's FTP server (https://pietech-events.is-best.net)
+
+2. Upload the following updated files with the correct database connection settings:
+   - config/database.php
+   - includes/Database.php
+   - connection_verify.php
+
+3. Test the database connection by accessing:
+   https://pietech-events.is-best.net/connection_verify.php
+
+4. If the connection test is successful (shows green "Connection successful" message):
+   - Go to the admin panel and test the attendance features
+   - Verify that reports can be downloaded correctly
+
+5. If the connection test fails:
+   - Check the error message
+   - Verify the database credentials with your hosting provider
+   - Make sure the database server name "sql209.hstn.me" is correct
+
+IMPORTANT DATABASE CONFIGURATION:
+- Host: sql209.hstn.me  (External MySQL server)
+- Database: mseet_38774389_events
+- Username: mseet_38774389  (Note: Previously we used mseet_38774389_events which was incorrect)
+- Password: ridhan93
+
+If you have any issues during implementation, please contact your developer for assistance.
