@@ -6,6 +6,11 @@ PIETECH Events Platform is a comprehensive web application for managing technica
 
 🌐 [Click here to view the live demo](https://pietech-events.is-best.net/?i=1)
 
+- **Admin Login**
+  - Email: admin@pietechevents.com
+  - Password: admin123
+
+
 ## Features
 
 - **User Authentication**
