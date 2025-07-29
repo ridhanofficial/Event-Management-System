@@ -2,6 +2,14 @@
 
 PIETECH Events Platform is a comprehensive web application for managing technical, cultural, and sports events. It provides features for event creation, registration, attendance tracking, and more.
 
+## 👥 Contributors
+
+This project was collaboratively developed by:
+
+- [Ridhan R](https://github.com/ridhanofficial)
+- [Sampath Raj](https://github.com/sampath-raj)
+
+
 ## 🔗 Live Demo
 
 🌐 [Click here to view the live demo](https://pietech-events.is-best.net/?i=1)
